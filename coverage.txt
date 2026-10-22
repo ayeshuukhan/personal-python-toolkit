@@ -1,0 +1,17 @@
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.3-final-0 ________________
+
+Name                       Stmts   Miss Branch BrPart  Cover   Missing
+----------------------------------------------------------------------
+src/ptoolkit/__init__.py       5      0      0      0   100%
+src/ptoolkit/__main__.py       3      0      2      1    80%   5->exit
+src/ptoolkit/cli.py          106      0     22      0   100%
+src/ptoolkit/files.py         50      0     24      0   100%
+src/ptoolkit/security.py      45      0     14      0   100%
+src/ptoolkit/text.py          37      0     16      0   100%
+----------------------------------------------------------------------
+TOTAL                        246      0     78      1    99%
+Coverage HTML written to dir htmlcov
+Coverage XML written to file coverage.xml
+Required test coverage of 95% reached. Total coverage: 99.69%
+75 passed in 0.38s
